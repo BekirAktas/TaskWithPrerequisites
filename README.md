@@ -1,10 +1,4 @@
 --READ ME--
-Projenin başlatılabilmesi için ilk başta veritabanında "forwardiedb" adında bir schema oluşturulması ve .env dosyasına veritabanı bağlantı bilgilerin girilmesi gerekmektedir. Örnek:
-
-DB_DATABASE=forwardiedb
-DB_USERNAME=root
-DB_PASSWORD=password
-
 Schema oluşturulduktan sonra terminalde proje dizinine gidip:
 "php artisan migrate" komutu çalıştırılıp tabloların oluşturulması gerekmektedir.
 ardından
